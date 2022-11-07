@@ -1,8 +1,7 @@
-site_name: Cinder
-site_url: https://sourcefoundry.org/cinder/
-site_author: Christopher Simpkins
-site_description: "A clean, responsive theme for static documentation websites that are generated with MkDocs"
-repo_url: "https://github.com/chrissimpkins/cinder"
+site_name: Kransy
+site_url: https://kransy.github.io/
+site_author: Kransy
+site_description: "Blog relatif à mon chemin dans la cybersécurité"
 copyright: "Cinder is licensed under the <a href='https://github.com/chrissimpkins/cinder/blob/master/LICENSE.md'>MIT license</a>"
 
 theme:
@@ -13,7 +12,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Specimen: specimen.md
+  - About: specimen.md
 
 markdown_extensions:
   - admonition
