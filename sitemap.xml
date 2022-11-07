@@ -6,7 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kransy.github.io/specimen/</loc>
+         <loc>https://kransy.github.io/exempleInitialIndex/</loc>
+         <lastmod>2022-11-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kransy.github.io/presentation/</loc>
          <lastmod>2022-11-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
