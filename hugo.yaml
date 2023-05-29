@@ -1,0 +1,46 @@
+baseURL: https://kransy.github.io/
+title: Kransy
+theme: PaperMod
+
+params:
+  author: Kransy
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  label:
+    icon: logo.png
+
+  assets:
+    favicon:
+
+  profileMode:
+    enabled: true
+    subtitle: "Cybersecurity Student | Consultant & Analyst @Sopra Steria | CTF Player for CyberKoopas OSCP | PNPT | CRTP | eJPT"
+    imageUrl: avatar.png
+    imageWidth: 350
+    imageHeight: 450
+#    imageTitle: "Cybersecurity Student | Consultant & Analyst @Sopra Steria | Pentester "
+#    buttons:
+#    - name: Posts
+#      url: posts
+
+  socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/nizar-boualam/"
+  - name: hackthebox
+    url: "https://app.hackthebox.com/profile/679671"
+  - name: rootme
+    url: "https://www.root-me.org/Kransy?inc=info&lang=fr"
+  - name: tryhackme
+    url: "https://tryhackme.com/p/Kransy"
+
+menu:
+  main:
+    - identifier: writeups
+      name: Writeups
+      url: /writeups/
+      weight: 10
+    - identifier: Cheatsheets
+      name: Cheatsheets
+      url: /cheatsheets/
+      weight: 20
