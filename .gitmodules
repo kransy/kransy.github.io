@@ -1,4 +1,0 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = git@github.com:kransy/kransy.github.io.git
-	branch = main
