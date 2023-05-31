@@ -6,7 +6,16 @@
     <description>Recent content on Kransy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 May 2023 04:58:46 -0400</lastBuildDate><atom:link href="https://kransy.cyberkoopas.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 09:48:32 -0400</lastBuildDate><atom:link href="https://kransy.cyberkoopas.fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privilege Escalation pour l&#39;OSCP</title>
+      <link>https://kransy.cyberkoopas.fr/cheatsheets/privilege-escalation/</link>
+      <pubDate>Wed, 31 May 2023 09:48:32 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/cheatsheets/privilege-escalation/</guid>
+      <description>Cette cheatsheet est là pour vous montrer le chemin que je fais pour cette étape. Elle n&amp;rsquo;est pas exhaustive et peut contenir des coquilles, n&amp;rsquo;hésitez pas à me les remonter sur Discord s&amp;rsquo;il manque une ou des commandes ou s&amp;rsquo;il y a une ou plusieurs erreurs. Cette cheatsheet a uniquement pour but l&amp;rsquo;OSCP et donc abordera uniquement les moyens de Priv Esc classiques.</description>
+    </item>
+    
     <item>
       <title>Writeups incoming - En construction</title>
       <link>https://kransy.cyberkoopas.fr/writeups/inc/</link>
@@ -22,7 +31,7 @@
       <pubDate>Mon, 29 May 2023 04:58:35 -0400</pubDate>
       
       <guid>https://kransy.cyberkoopas.fr/cheatsheets/post-exploitation/</guid>
-      <description>Cette cheatsheet est là pour vous montrer le chemin que je fais pour cette étape. Elle n&amp;rsquo;est pas exhaustive et peut contenir des coquilles, n&amp;rsquo;hésitez pas à me les remonter sur Discord s&amp;rsquo;il manque une ou des commandes ou s&amp;rsquo;il y a une ou plusieurs erreurs. Cette cheatsheet a uniquement pour but l&amp;rsquo;OSCP, et rien d&amp;rsquo;autres, donc je n&amp;rsquo;irai pas dans les détails des artefacts que l&amp;rsquo;on pourrait trouver sur une machine.</description>
+      <description>Cette cheatsheet est là pour vous montrer le chemin que je fais pour cette étape. Elle n&amp;rsquo;est pas exhaustive et peut contenir des coquilles, n&amp;rsquo;hésitez pas à me les remonter sur Discord s&amp;rsquo;il manque une ou des commandes ou s&amp;rsquo;il y a une ou plusieurs erreurs. Cette cheatsheet a uniquement pour but l&amp;rsquo;OSCP, donc je n&amp;rsquo;irai pas dans les détails des artefacts que l&amp;rsquo;on pourrait trouver sur une machine, je n&amp;rsquo;aborderai donc que la post-exploitation de manière classique.</description>
     </item>
     
   </channel>

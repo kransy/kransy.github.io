@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kransy.cyberkoopas.fr/cheatsheets/</loc>
+    <lastmod>2023-05-31T09:48:32-04:00</lastmod>
+  </url><url>
     <loc>https://kransy.cyberkoopas.fr/</loc>
-    <lastmod>2023-05-29T04:58:46-04:00</lastmod>
+    <lastmod>2023-05-31T09:48:32-04:00</lastmod>
+  </url><url>
+    <loc>https://kransy.cyberkoopas.fr/cheatsheets/privilege-escalation/</loc>
+    <lastmod>2023-05-31T09:48:32-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/writeups/</loc>
     <lastmod>2023-05-29T04:58:46-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/writeups/inc/</loc>
     <lastmod>2023-05-29T04:58:46-04:00</lastmod>
-  </url><url>
-    <loc>https://kransy.cyberkoopas.fr/cheatsheets/</loc>
-    <lastmod>2023-05-29T04:58:35-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/cheatsheets/post-exploitation/</loc>
     <lastmod>2023-05-29T04:58:35-04:00</lastmod>
