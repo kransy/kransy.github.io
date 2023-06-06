@@ -14,7 +14,7 @@
       
       <guid>https://kransy.cyberkoopas.fr/cheatsheets/privilege-escalation/</guid>
       <description>Cette cheatsheet est là pour vous montrer le chemin que je fais pour cette étape. Elle n&amp;rsquo;est pas exhaustive et peut contenir des coquilles, n&amp;rsquo;hésitez pas à me les remonter sur Discord s&amp;rsquo;il manque une ou des commandes ou s&amp;rsquo;il y a une ou plusieurs erreurs. Cette cheatsheet a uniquement pour but l&amp;rsquo;OSCP et donc abordera uniquement les moyens de Priv Esc classiques.
-0. Introduction 1. Linux 2. Windows Introduction L&amp;rsquo;escalade de privilège est une étape quasi systèmatique lors de réalisations de machines.</description>
+0. Introduction 1. Linux 1.1 - /etc/passwd 1.</description>
     </item>
     
     <item>
