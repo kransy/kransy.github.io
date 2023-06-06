@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Certifications on Kransy</title>
+    <link>https://kransy.cyberkoopas.fr/certifications/</link>
+    <description>Recent content in Certifications on Kransy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Jun 2023 10:34:49 -0400</lastBuildDate><atom:link href="https://kransy.cyberkoopas.fr/certifications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retex - PNPT</title>
+      <link>https://kransy.cyberkoopas.fr/certifications/pnpt/</link>
+      <pubDate>Tue, 06 Jun 2023 10:34:49 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/certifications/pnpt/</guid>
+      <description>Inc</description>
+    </item>
+    
+    <item>
+      <title>Retex - OSCP</title>
+      <link>https://kransy.cyberkoopas.fr/certifications/oscp/</link>
+      <pubDate>Tue, 06 Jun 2023 10:34:46 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/certifications/oscp/</guid>
+      <description>Inc.</description>
+    </item>
+    
+    <item>
+      <title>Retex - CRTP</title>
+      <link>https://kransy.cyberkoopas.fr/certifications/crtp/</link>
+      <pubDate>Tue, 06 Jun 2023 10:34:43 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/certifications/crtp/</guid>
+      <description>Inc.</description>
+    </item>
+    
+  </channel>
+</rss>

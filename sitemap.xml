@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kransy.cyberkoopas.fr/certifications/</loc>
+    <lastmod>2023-06-06T10:34:49-04:00</lastmod>
+  </url><url>
     <loc>https://kransy.cyberkoopas.fr/</loc>
     <lastmod>2023-06-06T10:34:49-04:00</lastmod>
   </url><url>
-    <loc>https://kransy.cyberkoopas.fr/retex/pnpt/</loc>
+    <loc>https://kransy.cyberkoopas.fr/certifications/pnpt/</loc>
     <lastmod>2023-06-06T10:34:49-04:00</lastmod>
   </url><url>
-    <loc>https://kransy.cyberkoopas.fr/retex/</loc>
-    <lastmod>2023-06-06T10:34:49-04:00</lastmod>
-  </url><url>
-    <loc>https://kransy.cyberkoopas.fr/retex/oscp/</loc>
+    <loc>https://kransy.cyberkoopas.fr/certifications/oscp/</loc>
     <lastmod>2023-06-06T10:34:46-04:00</lastmod>
   </url><url>
-    <loc>https://kransy.cyberkoopas.fr/retex/crtp/</loc>
+    <loc>https://kransy.cyberkoopas.fr/certifications/crtp/</loc>
     <lastmod>2023-06-06T10:34:43-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/writeups/bagel/</loc>
