@@ -6,32 +6,59 @@
     <description>Recent content on Kransy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Jun 2023 10:34:49 -0400</lastBuildDate><atom:link href="https://kransy.cyberkoopas.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jun 2023 12:34:49 -0400</lastBuildDate><atom:link href="https://kransy.cyberkoopas.fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Retex - PNPT</title>
+      <title>Retex - PNPT (FR)</title>
       <link>https://kransy.cyberkoopas.fr/certifications/pnpt/</link>
-      <pubDate>Tue, 06 Jun 2023 10:34:49 -0400</pubDate>
+      <pubDate>Tue, 06 Jun 2023 12:34:49 -0400</pubDate>
       
       <guid>https://kransy.cyberkoopas.fr/certifications/pnpt/</guid>
-      <description>Inc</description>
+      <description>1. TCM Security 2. TCM - Academy, avis sur les cours pour la PNPT 2.1. Cours 1 : Practical Ethical Hacking 2.2. Cours 2 : Open-Source Intelligence (OSINT) 2.3. Cours 3 : External Pentest Playbook 2.4. Cours 4 et 5 : Windows &amp;amp; Linux Privilege Escalation for Beginners 3. Comment bien s’y préparer &amp;amp; ma préparation ? 4. La certification 4.1 un “Pentest” 4.2 Prix 4.3 L&amp;rsquo;examen 5. Conclusion : Tableau positif / négatif Certifications TCMs : https://certifications.</description>
     </item>
     
     <item>
-      <title>Retex - OSCP</title>
+      <title>Retex - OSCP - Le début du tunnel (FR)</title>
       <link>https://kransy.cyberkoopas.fr/certifications/oscp/</link>
-      <pubDate>Tue, 06 Jun 2023 10:34:46 -0400</pubDate>
+      <pubDate>Tue, 06 Jun 2023 12:34:46 -0400</pubDate>
       
       <guid>https://kransy.cyberkoopas.fr/certifications/oscp/</guid>
-      <description>Inc.</description>
+      <description>1. OffSec - Offensive Security 1.1 Overview du cours / sommaire &amp;amp; les 10 points bonus 1.2. Une méthodologie bien rodée 1.3. Du Stress(24h, 1600$, “beaucoup de personnes le réussissent pas”, 3 mois) 2. Comment (très) bien s’y préparer &amp;amp; ma préparation ? 3. La certification 3.1 Prix 3.2 L&amp;rsquo;examen 5. Conclusion : Tableau positif / négatif OffSec - Offensive Security Entreprise que l&amp;rsquo;on ne présente plus, une des leaders dans les formations et certifications les plus connues en cybersécurité.</description>
     </item>
     
     <item>
-      <title>Retex - CRTP</title>
+      <title>Retex - CRTP (FR)</title>
       <link>https://kransy.cyberkoopas.fr/certifications/crtp/</link>
-      <pubDate>Tue, 06 Jun 2023 10:34:43 -0400</pubDate>
+      <pubDate>Tue, 06 Jun 2023 12:34:43 -0400</pubDate>
       
       <guid>https://kransy.cyberkoopas.fr/certifications/crtp/</guid>
-      <description>Inc.</description>
+      <description>1. Présentation de la CRTP et du bootcamp 1. Séance 1 2. Séance 2 3. Séance 3 et 4 2. Mon expérience avec l&amp;rsquo;AD avant la CRTP 3. Mon expérience du lab d&amp;rsquo;entraînement 3. Remerciements 4. Ressources utiles supplémentaires CRTP : https://www.alteredsecurity.com/adlab CRTP + Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Présentation de la CRTP et du bootcamp La CRTP ou Certified Red Team Professionnal est une certification niveau &amp;ldquo;débutant&amp;rdquo; en Active Directory. Dans celle-ci, on apprend les bases de l&amp;rsquo;AD, les principales attaques (orientées misconfigurations) ainsi que certaines méthodes pour défendre son AD.</description>
+    </item>
+    
+    <item>
+      <title>Retex - PNPT (ENG)</title>
+      <link>https://kransy.cyberkoopas.fr/certifications/pnpt_eng/</link>
+      <pubDate>Tue, 06 Jun 2023 11:34:49 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/certifications/pnpt_eng/</guid>
+      <description>1. TCM Security 2. TCM - Academy, reviews on courses for PNPT 2.1. Course 1: Practical Ethical Hacking 2.2. Course 2: Open-Source Intelligence (OSINT) 2.3. Course 3: External Pentest Playbook 2.4. Courses 4 and 5: Windows &amp;amp; Linux Privilege Escalation for Beginners 3. How to prepare and my preparation? 4. The certification 4.1. A &amp;ldquo;Pentest&amp;rdquo; 4.2. Price 4.3. The exam 5. Conclusion: Positive/Negative Overview TCM Certifications: https://certifications.tcm-sec.com/ TCM Academy: https://academy.</description>
+    </item>
+    
+    <item>
+      <title>Retex - OSCP - the beginning of the tunnel (ENG)</title>
+      <link>https://kransy.cyberkoopas.fr/certifications/oscp_eng/</link>
+      <pubDate>Tue, 06 Jun 2023 11:34:46 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/certifications/oscp_eng/</guid>
+      <description>1. OffSec - Offensive Security 1.1 Overview of the course / summary &amp;amp; the 10 bonus points 1.2. A well-established methodology 1.3. Stress (24 hours, $1600, &amp;ldquo;many people don&amp;rsquo;t pass it&amp;rdquo;, 3 months) 2. How to (very) well prepare &amp;amp; my preparation? 3. The certification 3.1 Price 3.2 The exam 4. Conclusion: Positive / negative overview OffSec - Offensive Security A well-known company, one of the leaders in the most renowned cybersecurity training and certifications.</description>
+    </item>
+    
+    <item>
+      <title>Retex - CRTP (ENG)</title>
+      <link>https://kransy.cyberkoopas.fr/certifications/crtp_eng/</link>
+      <pubDate>Tue, 06 Jun 2023 11:34:43 -0400</pubDate>
+      
+      <guid>https://kransy.cyberkoopas.fr/certifications/crtp_eng/</guid>
+      <description>1. Presentation of CRTP and Bootcamp 1. Session 1 2. Session 2 3. Sessions 3 and 4 2. My Experience with AD before CRTP 3. My Training Lab Experience 3. Acknowledgments 4. Additional Useful Resources CRTP : https://www.alteredsecurity.com/adlab CRTP + Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Presentation of CRTP and Bootcamp The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD.</description>
     </item>
     
     <item>
@@ -49,8 +76,9 @@
       <pubDate>Wed, 31 May 2023 09:48:32 -0400</pubDate>
       
       <guid>https://kransy.cyberkoopas.fr/cheatsheets/privilege-escalation/</guid>
-      <description>Cette cheatsheet est là pour vous montrer le chemin que je fais pour cette étape. Elle n&amp;rsquo;est pas exhaustive et peut contenir des coquilles, n&amp;rsquo;hésitez pas à me les remonter sur Discord s&amp;rsquo;il manque une ou des commandes ou s&amp;rsquo;il y a une ou plusieurs erreurs. Cette cheatsheet a uniquement pour but l&amp;rsquo;OSCP et donc abordera uniquement les moyens de Priv Esc classiques.
-0. Introduction 1. Linux 1.1 - /etc/passwd 1.</description>
+      <description>Sorry, toujours en construction.
+Cette cheatsheet est là pour vous montrer le chemin que je fais pour cette étape. Elle n&amp;rsquo;est pas exhaustive et peut contenir des coquilles, n&amp;rsquo;hésitez pas à me les remonter sur Discord s&amp;rsquo;il manque une ou des commandes ou s&amp;rsquo;il y a une ou plusieurs erreurs. Cette cheatsheet a uniquement pour but l&amp;rsquo;OSCP et donc abordera uniquement les moyens de Priv Esc classiques.
+0. Introduction 1. Linux 1.</description>
     </item>
     
     <item>

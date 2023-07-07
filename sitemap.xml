@@ -3,19 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kransy.cyberkoopas.fr/certifications/</loc>
-    <lastmod>2023-06-06T10:34:49-04:00</lastmod>
+    <lastmod>2023-06-06T12:34:49-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/</loc>
-    <lastmod>2023-06-06T10:34:49-04:00</lastmod>
+    <lastmod>2023-06-06T12:34:49-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/certifications/pnpt/</loc>
-    <lastmod>2023-06-06T10:34:49-04:00</lastmod>
+    <lastmod>2023-06-06T12:34:49-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/certifications/oscp/</loc>
-    <lastmod>2023-06-06T10:34:46-04:00</lastmod>
+    <lastmod>2023-06-06T12:34:46-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/certifications/crtp/</loc>
-    <lastmod>2023-06-06T10:34:43-04:00</lastmod>
+    <lastmod>2023-06-06T12:34:43-04:00</lastmod>
+  </url><url>
+    <loc>https://kransy.cyberkoopas.fr/certifications/pnpt_eng/</loc>
+    <lastmod>2023-06-06T11:34:49-04:00</lastmod>
+  </url><url>
+    <loc>https://kransy.cyberkoopas.fr/certifications/oscp_eng/</loc>
+    <lastmod>2023-06-06T11:34:46-04:00</lastmod>
+  </url><url>
+    <loc>https://kransy.cyberkoopas.fr/certifications/crtp_eng/</loc>
+    <lastmod>2023-06-06T11:34:43-04:00</lastmod>
   </url><url>
     <loc>https://kransy.cyberkoopas.fr/writeups/bagel/</loc>
     <lastmod>2023-06-06T10:33:23-04:00</lastmod>

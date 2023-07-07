@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Retex - CRTP (ENG) | Kransy</title>
+<meta name="keywords" content="">
+<meta name="description" content="1. Presentation of CRTP and Bootcamp 1. Session 1 2. Session 2 3. Sessions 3 and 4 2. My Experience with AD before CRTP 3. My Training Lab Experience 3. Acknowledgments 4. Additional Useful Resources CRTP : https://www.alteredsecurity.com/adlab CRTP &#43; Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Presentation of CRTP and Bootcamp The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD.">
+<meta name="author" content="Kransy">
+<link rel="canonical" href="https://kransy.cyberkoopas.fr/certifications/crtp_eng/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5c17b8ba2228e45e46dc18a39133aaf8bfd6c18b7cd45b91ad436dd85229d056.css" integrity="sha256-XBe4uiIo5F5G3BijkTOq&#43;L/WwYt81FuRrUNt2FIp0FY=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://kransy.cyberkoopas.fr/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kransy.cyberkoopas.fr/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kransy.cyberkoopas.fr/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kransy.cyberkoopas.fr/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kransy.cyberkoopas.fr/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Retex - CRTP (ENG)" />
+<meta property="og:description" content="1. Presentation of CRTP and Bootcamp 1. Session 1 2. Session 2 3. Sessions 3 and 4 2. My Experience with AD before CRTP 3. My Training Lab Experience 3. Acknowledgments 4. Additional Useful Resources CRTP : https://www.alteredsecurity.com/adlab CRTP &#43; Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Presentation of CRTP and Bootcamp The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kransy.cyberkoopas.fr/certifications/crtp_eng/" /><meta property="article:section" content="certifications" />
+<meta property="article:published_time" content="2023-06-06T11:34:43-04:00" />
+<meta property="article:modified_time" content="2023-06-06T11:34:43-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Retex - CRTP (ENG)"/>
+<meta name="twitter:description" content="1. Presentation of CRTP and Bootcamp 1. Session 1 2. Session 2 3. Sessions 3 and 4 2. My Experience with AD before CRTP 3. My Training Lab Experience 3. Acknowledgments 4. Additional Useful Resources CRTP : https://www.alteredsecurity.com/adlab CRTP &#43; Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Presentation of CRTP and Bootcamp The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Certifications",
+      "item": "https://kransy.cyberkoopas.fr/certifications/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Retex - CRTP (ENG)",
+      "item": "https://kransy.cyberkoopas.fr/certifications/crtp_eng/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Retex - CRTP (ENG)",
+  "name": "Retex - CRTP (ENG)",
+  "description": "1. Presentation of CRTP and Bootcamp 1. Session 1 2. Session 2 3. Sessions 3 and 4 2. My Experience with AD before CRTP 3. My Training Lab Experience 3. Acknowledgments 4. Additional Useful Resources CRTP : https://www.alteredsecurity.com/adlab CRTP + Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Presentation of CRTP and Bootcamp The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD.",
+  "keywords": [
+    
+  ],
+  "articleBody": " 1. Presentation of CRTP and Bootcamp 1. Session 1 2. Session 2 3. Sessions 3 and 4 2. My Experience with AD before CRTP 3. My Training Lab Experience 3. Acknowledgments 4. Additional Useful Resources CRTP : https://www.alteredsecurity.com/adlab CRTP + Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp Presentation of CRTP and Bootcamp The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD. It’s particularly relevant considering that the environments are full-patched Windows servers.\nThis certification is EXCELLENT for anyone who wants to start doing AD pentesting. The only small drawback is that it only uses Windows and the tools available on Windows, not those of Linux (crackmapexec, impacket, etc., because they have a special lab for it… which is normal). However, it provides a comprehensive understanding, so once you have mastered it with Windows, transitioning and using Linux tools won’t be too difficult.\nIn my case, I opted for the bootcamp package and certification. This package provides a weekly course for one month, on Sundays, for 2-3 hours, taught by Nikhil “SamratAshok” Mittal, who is an AD expert. He explains the course, demonstrates attacks in the lab, and answers your questions, which is a huge advantage! These interactions with him further enhance the understanding of the CRTP course (which is also offered without the bootcamp for those who only want the certification).\nOne of the greatest benefits, in addition to what has been mentioned, is that it provides a structured work pace. Nikhil divides the course into four sessions, allowing you to follow the same pace as him to successfully complete the course and lab, and take your exam with more confidence.\nYou also have the option to perform the lab with a C2: Covenant. A lab manual using Covenant is also available, but Nikhil won’t cover it extensively (as it’s not the main focus). However, if you have any questions about it, either he or the support team can provide answers.\nSession 1 The first session of the course also marks the beginning of the lab. In this first session, the following topics are covered:\nIntroduction Structure Methodology Enumeration Use of PowerShell (which will be your primary tool in this certification) AV bypass Classic Windows privilege escalation via PowerUp These provide you with the fundamentals to start working and experimenting in the training lab before the second session. I advise you to always get ahead in the course and exercises. By doing so, you will have an easier time understanding what will be explained orally if you have already read, researched, and grasped the concepts to some extent. Then, when the explanations come, if you understand and what you understood matches what is being explained, it’s perfect. Otherwise, it will help realign your understanding. If you’re having trouble understanding, don’t hesitate to ask questions. Nikhil is an angel who answers everyone!\nSession 2 The second session of the course covers the following topics:\nLateral movements (Using Mimikatz, PowerShell Remoting, Tradecraft, Overpass-The-Hash, etc.), which will be very useful once you have obtained a local administrator account on a machine to pivot within the network. Offensive .NET (Modifying PowerShell scripts or source code to bypass Defender, etc.), which will also be very useful for bypassing Defender running throughout the lab! Similarly, if you have fallen behind, feel free to catch up at this point before the “serious” stuff kicks in. If you have any questions about AD that you didn’t understand from session 1, don’t hesitate to ask them at the beginning of the session. Nikhil, the AD angel, sets aside time at the beginning and end of the sessions to answer questions in addition to addressing them during the course!\nSessions 3 and 4 This is where I had made good progress/speeded up, so I didn’t differentiate between the two sessions, sorry. These final course sessions cover:\nPersistence: silver, gold, diamond tickets, ACLs, SSP, skeleton keys… You will finally understand all these terms and how they work, as well as how to implement them. Some techniques are more verbose than others, and you will discover that during the lab! AD privilege escalation: how to become a Domain Admin! To achieve this, the course will cover kerberoasting (SPN/AS-REP) as well as Kerberos delegations, which are the main techniques for privilege escalation, lateral movement, etc., ultimately leading to becoming a Domain Admin! Take the time to experiment with each of these attacks in the lab. It is important to understand the ins and outs of these techniques to avoid issues and comprehend any potential errors that may arise. Privilege escalation to become an Enterprise Admin! Yes, if you thought Domain Admin was the ultimate goal for internal pentesting, wait until you become an Enterprise Admin—it’s even better! You will learn and understand trust relationships between forests, how to abuse them (trust abuses via MSSQL and others), as well as relationships within and between child and parent domains! AD CS: This is a true quick win in a forest. It allows for privilege escalation through domain trust relationships, within a domain, and more. Potentially, you can escalate from a user to a Domain Admin to an Enterprise Admin through AD CS, depending on the templates and if they are vulnerable! Defending your AD! The CRTP is not just about attacking; it also helps you understand and defend AD. The course demonstrates and explains best practices for detecting and defending your AD and protecting Domain Admins, both through security measures and implementing architectures (ESAE, Tier Model, etc.). Understanding how to attack an AD, defend it, and attack it effectively are equally important in both perspectives! My Experience with AD before CRTP TryHackMe: Jr Pentester learning path (some AD, but I didn’t grasp the concepts well) HackTheBox: TJNull’s easy boxes, but nothing related to AD Dante (some AD) My Training Lab Experience In a training lab, there are usually a fixed number of students (I believe 5), and the labs can be easily reset by contacting support (who respond very quickly). Even if you have questions, the support team is competent and able to provide answers.\nDuring my bootcamp, I interacted a lot with the community and with Nikhil, whether it was to ask questions or to provide answers. This helped me solidify my knowledge and get to know fellow learners! We had a small group with a very cool atmosphere and a lot of mutual support, and we all passed the exam without much trouble.\nI completed the training lab following Nikhil’s schedule, then accelerated when I felt comfortable. Most, if not all, of the attacks learned can be performed in the training lab. A diagram of possible attacks and paths to become a Domain Admin is provided, which can be useful if you think you missed a path or if you feel lost!\nPersonally, I answered all the questions related to the training lab, and then I spent 3-4 days reproducing all the attacks to ensure that I knew “everything” about them and could troubleshoot any issues that arose. I scheduled my exam one week before the end of the lab so that if I failed, I would have another week to practice before attempting it again.\nI took the exam on February 1, 2023, and passed it without any “surprises.” Everything on the exam was covered in the course.\nAcknowledgments CRTP has been immensely helpful in understanding AD, as I didn’t know much about it before. It allowed me to complete the HTB pro lab “Offshore” to reinforce my AD knowledge and transition/learn to use tools on Linux (CrackMapExec/Impacket/…).\nThe certification is definitely worth it. For me, it’s a must-do for anyone interested in working with AD. The certification is completely overkill for OSCP, so with CRTP, you can be sure that the AD in OSCP is a breeze compared to CRTP!\nThanks to Nikhil for creating CRTP and to the CRTP support team for their quick and efficient responses. They are highly responsive and have answers to all questions, they are gems!\nAdditional Useful Resources TheHackerRecipies: https://www.thehacker.recipes/ ADSecurity: https://adsecurity.org/ If you have any questions about the course or the comparison with OSCP, feel free to contact me on Discord!\n",
+  "wordCount" : "1383",
+  "inLanguage": "en",
+  "datePublished": "2023-06-06T11:34:43-04:00",
+  "dateModified": "2023-06-06T11:34:43-04:00",
+  "author":{
+    "@type": "Person",
+    "name": "Kransy"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kransy.cyberkoopas.fr/certifications/crtp_eng/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kransy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kransy.cyberkoopas.fr/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://kransy.cyberkoopas.fr/" accesskey="h" title="Kransy (Alt + H)">
+                <img src="https://kransy.cyberkoopas.fr/logo.png" alt="" aria-label="logo"
+                    height="30">Kransy</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://kransy.cyberkoopas.fr/writeups/" title="Writeups">
+                    <span>Writeups</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kransy.cyberkoopas.fr/cheatsheets/" title="Cheatsheets">
+                    <span>Cheatsheets</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kransy.cyberkoopas.fr/certifications/" title="Retex">
+                    <span>Retex</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Retex - CRTP (ENG)
+    </h1>
+    <div class="post-meta"><span title='2023-06-06 11:34:43 -0400 -0400'>June 6, 2023</span>&nbsp;·&nbsp;Kransy
+
+</div>
+  </header> 
+  <div class="post-content"><ul>
+<li><a href="#presentation-of-crtp-and-bootcamp">1. Presentation of CRTP and Bootcamp</a>
+<ul>
+<li><a href="#session-1">1. Session 1</a></li>
+<li><a href="#session-2">2. Session 2</a></li>
+<li><a href="#sessions-3-and-4">3. Sessions 3 and 4</a></li>
+</ul>
+</li>
+<li><a href="#my-experience-with-ad-before-crtp">2. My Experience with AD before CRTP</a></li>
+<li><a href="#my-training-lab-experience">3. My Training Lab Experience</a></li>
+<li><a href="#acknowledgments">3. Acknowledgments</a></li>
+<li><a href="#additional-useful-resources">4. Additional Useful Resources</a></li>
+</ul>
+<hr>
+<pre><code>CRTP : https://www.alteredsecurity.com/adlab
+CRTP + Bootcamp : https://www.alteredsecurity.com/crtp-bootcamp
+</code></pre>
+<h2 id="presentation-of-crtp-and-bootcamp">Presentation of CRTP and Bootcamp<a hidden class="anchor" aria-hidden="true" href="#presentation-of-crtp-and-bootcamp">#</a></h2>
+<p>The CRTP, or Certified Red Team Professional, is an entry-level certification focused on Active Directory. In this certification, you learn the fundamentals of AD, the main attacks (oriented towards misconfigurations), as well as some methods to defend your AD. It&rsquo;s particularly relevant considering that the environments are full-patched Windows servers.</p>
+<p>This certification is EXCELLENT for anyone who wants to start doing AD pentesting. The only small drawback is that it only uses Windows and the tools available on Windows, not those of Linux (crackmapexec, impacket, etc., because they have a special lab for it&hellip; which is normal). However, it provides a comprehensive understanding, so once you have mastered it with Windows, transitioning and using Linux tools won&rsquo;t be too difficult.</p>
+<p>In my case, I opted for the bootcamp package and certification. This package provides a weekly course for one month, on Sundays, for 2-3 hours, taught by Nikhil &ldquo;SamratAshok&rdquo; Mittal, who is an AD expert. He explains the course, demonstrates attacks in the lab, and answers your questions, which is a huge advantage! These interactions with him further enhance the understanding of the CRTP course (which is also offered without the bootcamp for those who only want the certification).</p>
+<p>One of the greatest benefits, in addition to what has been mentioned, is that it provides a structured work pace. Nikhil divides the course into four sessions, allowing you to follow the same pace as him to successfully complete the course and lab, and take your exam with more confidence.</p>
+<p>You also have the option to perform the lab with a C2: Covenant. A lab manual using Covenant is also available, but Nikhil won&rsquo;t cover it extensively (as it&rsquo;s not the main focus). However, if you have any questions about it, either he or the support team can provide answers.</p>
+<h3 id="session-1">Session 1<a hidden class="anchor" aria-hidden="true" href="#session-1">#</a></h3>
+<p>The first session of the course also marks the beginning of the lab. In this first session, the following topics are covered:</p>
+<ul>
+<li>Introduction</li>
+<li>Structure</li>
+<li>Methodology</li>
+<li>Enumeration</li>
+<li>Use of PowerShell (which will be your primary tool in this certification)</li>
+<li>AV bypass</li>
+<li>Classic Windows privilege escalation via PowerUp</li>
+</ul>
+<p>These provide you with the fundamentals to start working and experimenting in the training lab before the second session.
+I advise you to always get ahead in the course and exercises. By doing so, you will have an easier time understanding what will be explained orally if you have already read, researched, and grasped the concepts to some extent. Then, when the explanations come, if you understand and what you understood matches what is being explained, it&rsquo;s perfect. Otherwise, it will help realign your understanding. If you&rsquo;re having trouble understanding, don&rsquo;t hesitate to ask questions. Nikhil is an angel who answers everyone!</p>
+<h3 id="session-2">Session 2<a hidden class="anchor" aria-hidden="true" href="#session-2">#</a></h3>
+<p>The second session of the course covers the following topics:</p>
+<ul>
+<li>Lateral movements (Using Mimikatz, PowerShell Remoting, Tradecraft, Overpass-The-Hash, etc.), which will be very useful once you have obtained a local administrator account on a machine to pivot within the network.</li>
+<li>Offensive .NET (Modifying PowerShell scripts or source code to bypass Defender, etc.), which will also be very useful for bypassing Defender running throughout the lab!</li>
+</ul>
+<p>Similarly, if you have fallen behind, feel free to catch up at this point before the &ldquo;serious&rdquo; stuff kicks in. If you have any questions about AD that you didn&rsquo;t understand from session 1, don&rsquo;t hesitate to ask them at the beginning of the session. Nikhil, the AD angel, sets aside time at the beginning and end of the sessions to answer questions in addition to addressing them during the course!</p>
+<h3 id="sessions-3-and-4">Sessions 3 and 4<a hidden class="anchor" aria-hidden="true" href="#sessions-3-and-4">#</a></h3>
+<p>This is where I had made good progress/speeded up, so I didn&rsquo;t differentiate between the two sessions, sorry.
+These final course sessions cover:</p>
+<ul>
+<li>Persistence: silver, gold, diamond tickets, ACLs, SSP, skeleton keys&hellip; You will finally understand all these terms and how they work, as well as how to implement them. Some techniques are more verbose than others, and you will discover that during the lab!</li>
+<li>AD privilege escalation: how to become a Domain Admin! To achieve this, the course will cover kerberoasting (SPN/AS-REP) as well as Kerberos delegations, which are the main techniques for privilege escalation, lateral movement, etc., ultimately leading to becoming a Domain Admin!
+Take the time to experiment with each of these attacks in the lab. It is important to understand the ins and outs of these techniques to avoid issues and comprehend any potential errors that may arise.</li>
+<li>Privilege escalation to become an Enterprise Admin! Yes, if you thought Domain Admin was the ultimate goal for internal pentesting, wait until you become an Enterprise Admin—it&rsquo;s even better! You will learn and understand trust relationships between forests, how to abuse them (trust abuses via MSSQL and others), as well as relationships within and between child and parent domains!</li>
+<li>AD CS: This is a true quick win in a forest. It allows for privilege escalation through domain trust relationships, within a domain, and more. Potentially, you can escalate from a user to a Domain Admin to an Enterprise Admin through AD CS, depending on the templates and if they are vulnerable!</li>
+<li>Defending your AD! The CRTP is not just about attacking; it also helps you understand and defend AD. The course demonstrates and explains best practices for detecting and defending your AD and protecting Domain Admins, both through security measures and implementing architectures (ESAE, Tier Model, etc.). Understanding how to attack an AD, defend it, and attack it effectively are equally important in both perspectives!</li>
+</ul>
+<h2 id="my-experience-with-ad-before-crtp">My Experience with AD before CRTP<a hidden class="anchor" aria-hidden="true" href="#my-experience-with-ad-before-crtp">#</a></h2>
+<ul>
+<li>TryHackMe: Jr Pentester learning path (some AD, but I didn&rsquo;t grasp the concepts well)</li>
+<li>HackTheBox: TJNull&rsquo;s easy boxes, but nothing related to AD</li>
+<li>Dante (some AD)</li>
+</ul>
+<h2 id="my-training-lab-experience">My Training Lab Experience<a hidden class="anchor" aria-hidden="true" href="#my-training-lab-experience">#</a></h2>
+<p>In a training lab, there are usually a fixed number of students (I believe 5), and the labs can be easily reset by contacting support (who respond very quickly). Even if you have questions, the support team is competent and able to provide answers.</p>
+<p>During my bootcamp, I interacted a lot with the community and with Nikhil, whether it was to ask questions or to provide answers. This helped me solidify my knowledge and get to know fellow learners! We had a small group with a very cool atmosphere and a lot of mutual support, and we all passed the exam without much trouble.</p>
+<p>I completed the training lab following Nikhil&rsquo;s schedule, then accelerated when I felt comfortable. Most, if not all, of the attacks learned can be performed in the training lab. A diagram of possible attacks and paths to become a Domain Admin is provided, which can be useful if you think you missed a path or if you feel lost!</p>
+<p>Personally, I answered all the questions related to the training lab, and then I spent 3-4 days reproducing all the attacks to ensure that I knew &ldquo;everything&rdquo; about them and could troubleshoot any issues that arose. I scheduled my exam one week before the end of the lab so that if I failed, I would have another week to practice before attempting it again.</p>
+<p>I took the exam on February 1, 2023, and passed it without any &ldquo;surprises.&rdquo; Everything on the exam was covered in the course.</p>
+<h2 id="acknowledgments">Acknowledgments<a hidden class="anchor" aria-hidden="true" href="#acknowledgments">#</a></h2>
+<p>CRTP has been immensely helpful in understanding AD, as I didn&rsquo;t know much about it before. It allowed me to complete the HTB pro lab &ldquo;Offshore&rdquo; to reinforce my AD knowledge and transition/learn to use tools on Linux (CrackMapExec/Impacket/&hellip;).</p>
+<p>The certification is definitely worth it. For me, it&rsquo;s a must-do for anyone interested in working with AD. The certification is completely overkill for OSCP, so with CRTP, you can be sure that the AD in OSCP is a breeze compared to CRTP!</p>
+<p>Thanks to Nikhil for creating CRTP and to the CRTP support team for their quick and efficient responses. They are highly responsive and have answers to all questions, they are gems!</p>
+<h2 id="additional-useful-resources">Additional Useful Resources<a hidden class="anchor" aria-hidden="true" href="#additional-useful-resources">#</a></h2>
+<ul>
+<li>TheHackerRecipies: <a href="https://www.thehacker.recipes/">https://www.thehacker.recipes/</a></li>
+<li>ADSecurity: <a href="https://adsecurity.org/">https://adsecurity.org/</a></li>
+</ul>
+<p>If you have any questions about the course or the comparison with OSCP, feel free to contact me on Discord!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://kransy.cyberkoopas.fr/">Kransy</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
